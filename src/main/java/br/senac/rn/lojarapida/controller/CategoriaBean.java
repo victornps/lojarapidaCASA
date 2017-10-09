@@ -6,6 +6,7 @@ import java.util.List;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ViewScoped;
 
+
 @ViewScoped
 @ManagedBean(name = "categoriaBean")
 public class CategoriaBean {
@@ -48,5 +49,6 @@ public class CategoriaBean {
     public void setCategoria(Categoria categoria) {
         this.categoria = categoria;
     }
+    
     
 }
